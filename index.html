@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="external/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+        <link href="external/lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <title>Financial SASS app</title>
+    </head>
+    <body>
+        <section class="hero">   
+            <header class="hero__header">
+                <div class="hero__header-content container">
+                    <div class="hero__header-logo-box">
+                        <img src="img/logo.png" alt="custom fin win logo" class="hero__header-logo">
+                    </div>
+                    <div class="mainnav">
+                        <a href="#" class="mainnav__mobile-icon"><img src="img/menu.svg" alt="menu builded with three lines"></a>
+                        <div class="mainnav__mobile-background"></div>
+                        <ul class="mainnav__navigation-list">
+                            <li class="mainnav__navigation-item"><a href="#" class="mainnav__navigation-link mainnav__navigation-link--active">Home</a></li> 
+                            <li class="mainnav__navigation-item"><a href="#" class="mainnav__navigation-link">How it works</a></li>
+                            <li class="mainnav__navigation-item"><a href="#" class="mainnav__navigation-link">About us</a></li>
+                            <li class="mainnav__navigation-item"><a href="#" class="mainnav__navigation-link">Cases</a></li>
+                            <li class="mainnav__navigation-item"><a href="#" class="mainnav__navigation-link">Pricing</a></li>
+                            <li class="mainnav__navigation-item"><a href="#" class="mainnav__navigation-link">Team</a></li>
+                            <li class="mainnav__navigation-item"><a href="#" class="mainnav__navigation-link">Contact</a></li>
+                            <a href="#" class="mainnav__bttn-main bttn-main">Get a Quote</a>
+                        </ul>
+                    </div>
+                </div>    
+            </header> 
+            <div class="hero__background_photo">
+                <div>
+                    <picture>
+                        <source media="(min-width: 1399px)" srcset="img/hero_background.jpg">
+                        <source media="(min-width: 265px)" srcset="img/hero2_background.jpg">
+                        <img src="img/hero_background.jpg" alt="Flowers" style="width:auto;">
+                     </picture>
+
+                    <!--   
+                    <img src="img/hero_background.jpg" alt="happy man on couch">
+                -->
+                </div> 
+                <div class="hero__background"></div>
+            </div>
+            <div class="main-banner container">
+                <div class="main-banner__content">
+                    <h1 class="main-banner__heading">
+                        Grow Your Business With Us
+                    </h1>
+                    <p class="main-banner__paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quasi veritatis sapiente. Libero reiciendis suscipit magnam.
+                    </p>
+                    <div class="main-banner__links">
+                        <a href="#" class="main-banner__bttn"><div>Learn more</div> <span><img src="img/right-arrow.png" alt="right-arrow">  </span></a>
+                        <a href="#" class="main-banner__link">Get a Quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <section class="howItWorks">
+            <div class="howItWorks__content container">
+                <div class="howItWorks__section-tittle">
+                    <h2 class="howItWorks__main-header">How it works</h2>
+                </div>
+                <div class="howItWorks__step-group" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="700">
+                    <div class="howItWorks__item">
+                        <div class="howItWorks__item__step-icon">
+                            <img src="img/icon-bubble.png" alt="chat icon">
+                            <span>1</span>
+                        </div>
+                        <h3 class="howItWorks__item-heading">Free consultation</h3>
+                        <p class="howItWorks__item-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="howItWorks__item">
+                        <div class="howItWorks__item__step-icon">
+                            <img src="img/icon-bubble.png" alt="chat icon">
+                            <span>1</span>
+                        </div>
+                        <h3 class="howItWorks__item-heading">Your Finance Plan</h3>
+                        <p class="howItWorks__item-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="howItWorks__item">
+                        <div class="howItWorks__item__step-icon">
+                            <img src="img/icon-bubble.png" alt="chat icon">
+                            <span>1</span>
+                        </div>
+                        <h3 class="howItWorks__item-heading">Enjoy the Freedom</h3>
+                        <p class="howItWorks__item-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <section class="partners">
+            <div class="partners__content container">
+                <div class="partner__logo-container">
+                    <a href="#" class="partner__logo">
+                        <img src="img/logo-01.png" alt="golden grid text logo">
+                    </a>
+                </div>
+                <div class="partner__logo-container">
+                    <a href="#" class="partner__logo">
+                        <img src="img/logo-02.png" alt="fastline circle logo">
+                    </a>
+                </div>
+                <div class="partner__logo-container">
+                    <a href="#" class="partner__logo">
+                        <img src="img/logo-03.png" alt="sweety text logo">
+                    </a>
+                </div>
+                <div class="partner__logo-container">
+                    <a href="#" class="partner__logo">
+                        <img src="img/logo-04.png" alt="rectangle climb logo">
+                    </a>
+                </div>
+                <div class="partner__logo-container">
+                    <a href="#" class="partner__logo">
+                        <img src="img/logo-05.png" alt="rectangle roy jones logo">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="about-us">
+            <div class="about-us__content container">
+                    <div class="about-us__section-tittle">
+                        <h2 class="about-us__main-header">About us</h2>
+                    </div>
+                    <div class="about-us__primary-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit ipsa eveniet dolorum. Tempus neque. Fusce pharetra, diam in hendrerit facilisis, enim diam cursus augue.
+                    </div>
+                    <div class="about-us__accordion-container">
+                            <div class="about-us__collapsible">Our Mission</div>
+                            <div class="about-us__collapsible-content">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="about-us__collapsible">We Love Our Clients</div>
+                            <div class="about-us__collapsible-content">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="about-us__collapsible">Award and Wins</div>
+                            <div class="about-us__collapsible-content">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                    </div>
+                    <div class="about-us__links">
+                        <a href="#" class="about-us__bttn"><div>Contact us</div></a>
+                        <a href="#" class="about-us__bttn--grey">Get a Quote</a>
+                    </div>
+            </div>
+            <div class="owl-carousel owl-one about-us__slider-container">
+                <div class="about-us__slider-item-one item"></div>
+                <div class="about-us__slider-item-two item"></div>
+            </div>
+        </section>
+        <section class="company-numbers">
+            <div class="container">
+                <div class="company-numbers__content">
+                    <div class="company-numbers__group">
+                        140+
+                        <span class="company-numbers__caption">Happy Clients</span>
+                    </div>
+                    <div class="company-numbers__group">
+                        280+
+                        <span class="company-numbers__caption">Cases Done</span>
+                    </div>
+                    <div class="company-numbers__group">
+                        24+
+                        <span class="company-numbers__caption">Years Experience</span>
+                    </div>
+                    <div class="company-numbers__group">
+                        18+
+                        <span class="company-numbers__caption">Branches Worldwide</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="stories">
+            <div class="stories__content container">
+                <div class="stories__section-tittle">
+                    <h2 class="stories__main-header">Successful Stories</h2>
+                </div>
+                <div class="stories__group" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="700">
+                    <artice class="stories__article">
+                        <div class="stories__article-background-first"></div>
+                            <span class="stories__article-data">10.05.2018</span>
+                            <h3 class="stories__header">Peters & Partners Growth</h3>
+                            <p class="stories__paragraph">Reiciendis odio, amet sit reprehenderit exercitatione nam?</p>
+                            <a href="#" class="stories__bttn-main bttn-main">View Case</a>
+                    </artice>
+                    <artice class="stories__article">
+                        <div class="stories__article-background-second"></div>
+                        <span class="stories__article-data">10.05.2018</span>
+                        <h3 class="stories__header">Fishnet Restaurant Redesign</h3>
+                        <p class="stories__paragraph">Reiciendis odio, amet sit reprehenderit exercitationem. Tenetur rerum esse quia nam?</p>
+                        <a href="#" class="stories__bttn-main bttn-main">View Case</a>
+                    </artice>
+                    <artice class="stories__article">
+                        <div class="stories__article-background-third"></div>
+                        <span class="stories__article-data">10.05.2018</span>
+                        <h3 class="stories__header">EyeSight Startup Successful Funding</h3>
+                        <p class="stories__paragraph">Reiciendis odio, amet sit reprehenderit exercitationem. Tenetur rerum esse quia nam? Uno delagia imporenti!</p>
+                        <a href="#" class="stories__bttn-main bttn-main">View Case</a>
+                    </artice>
+                </div>
+            </div>
+        </section>
+        <section class="timeline">
+            <div class="container">
+                <div class="timeline__section-tittle">
+                    <h2 class="timeline__main-header">Successful Stories</h2>
+                </div>
+            </div>
+            <div class="timeline_content">
+                <div class="timeline__carousel owl-carousel owl-two">
+                    <div class="timeline__group">
+                        <article class="timeline__step">
+                            <h4 class="timeline__step-small-header">Company Founded</h4>
+                        </article>
+                        <div class="timeline__data">
+                                    APR
+                            <span class="timeline__year">2017</span>
+                        </div>
+                    </div>
+                    <div class="timeline__group">
+                        <article class="timeline__article">
+                            <h4 class="timeline__small-header">Solutions for small money transfers</h4>
+                            <p class="timeline__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae doloribus vero inventore, repellat rem nemo.</p>
+                            <a href="#" class="timeline__bttn-main bttn-main">View Case</a>
+                        </article>
+                        <div class="timeline__data">
+                            APR
+                            <span class="timeline__year">2017</span>
+                        </div>
+                    </div>
+                    <div class="timeline__group">
+                        <article class="timeline__article">
+                            <h4 class="timeline__small-header">Solutions for small money transfers</h4>
+                            <p class="timeline__paragraph">Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae doloribus vero inventore dolor sit amet consectetur adipisicing vero inventore, repellat rem nemo.</p>
+                                <a href="#" class="timeline__bttn-main bttn-main">View Case</a>
+                        </article>
+                        <div class="timeline__data">
+                                APR
+                            <span class="timeline__year">2017</span>
+                        </div>
+                    </div>
+                    <div class="timeline__group">
+                        <article class="timeline__step">
+                            <h4 class="timeline__step-small-header">Company Founded</h4>
+                        </article>
+                        <div class="timeline__data">
+                                        APR
+                            <span class="timeline__year">2017</span>
+                        </div>
+                    </div>
+                    <div class="timeline__group">
+                        <article class="timeline__article">
+                            <h4 class="timeline__small-header">Solutions for small money transfers</h4>
+                            <p class="timeline__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae doloribus vero inventore, repellat rem nemo.</p>
+                            <a href="#" class="timeline__bttn-main bttn-main">View Case</a>
+                        </article>
+                        <div class="timeline__data">
+                                APR
+                            <span class="timeline__year">2017</span>
+                        </div>
+                    </div>
+                    <div class="timeline__group">
+                            <article class="timeline__article">
+                                <h4 class="timeline__small-header">Solutions for small money transfers</h4>
+                                <p class="timeline__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae doloribus vero inventore, repellat rem nemo.</p>
+                                <a href="#" class="timeline__bttn-main bttn-main">View Case</a>
+                            </article>
+                            <div class="timeline__data">
+                                    APR
+                                <span class="timeline__year">2017</span>
+                            </div>
+                    </div>
+                    <div class="timeline__group">
+                            <article class="timeline__article">
+                                <h4 class="timeline__small-header">Solutions for small money transfers</h4>
+                                <p class="timeline__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae doloribus vero inventore, repellat rem nemo.</p>
+                                <a href="#" class="timeline__bttn-main bttn-main">View Case</a>
+                            </article>
+                            <div class="timeline__data">
+                                    APR
+                                <span class="timeline__year">2017</span>
+                            </div>
+                    </div>
+                    <div class="timeline__group">
+                            <article class="timeline__article">
+                                <h4 class="timeline__small-header">Solutions for small money transfers</h4>
+                                <p class="timeline__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae doloribus vero inventore, repellat rem nemo.</p>
+                                <a href="#" class="timeline__bttn-main bttn-main">View Case</a>
+                            </article>
+                            <div class="timeline__data">
+                                    APR
+                                <span class="timeline__year">2017</span>
+                            </div>
+                    </div>
+                </div>
+                <div class="timeline-line"></div>
+            </div>
+        </section>
+        <section class="prices">
+            <div class="prices__content container">
+                <div class="prices__section-tittle">
+                    <h2 class="prices__main-header">Affordable Prices</h2>
+                </div>
+                <div data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="700" class="prices__tables">
+                    <div class="price__box">
+                        <div class="price__box-header">Basic</div>
+                        <div class="price__box-price">Free <span>forever</span></div>
+                        <ul class="price__box-features">
+                            <li>1 hour Consultation</li>
+                            <li>3x Email Consultation</li>
+                            <li class="price__box-features-inactive">Live Support</li>
+                            <li class="price__box-features-inactive">Priority Hotline</li>
+                        </ul>
+                        <a href="#" class="price__box__bttn--grey">Select Now</a>
+                    </div>
+                    <div class="price__box active">
+                        <div class="price__box-header active">Basic</div>
+                        <div class="price__box-price active">Free <span>forever</span></div>
+                        <ul class="price__box-features">
+                            <li>1 hour Consultation</li>
+                            <li>3x Email Consultation</li>
+                            <li>Live Support</li>
+                            <li class="price__box-features-inactive">Priority Hotline</li>
+                        </ul>
+                        <a href="#" class="price__box__bttn--active">Select Now</a>
+                    </div>
+                    <div class="price__box">
+                        <div class="price__box-header">Basic</div>
+                        <div class="price__box-price">Free <span>forever</span></div>
+                        <ul class="price__box-features">
+                            <li>1 hour Consultation</li>
+                            <li>3x Email Consultation</li>
+                            <li>Live Support</li>
+                            <li>Priority Hotline</li>
+                        </ul>
+                        <a href="#" class="price__box__bttn--grey">Select Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="gallery__content">
+                <div class="gallery__item">
+                    <a class="gallery__link" href="img/ga.jpg" data-lightbox="image-1" data-title="My caption">
+                        <div class="gallery__caption">
+                            <h3 class="gallery__header">Industrial Design <span>Room Furniture</span></h3>
+                        </div>
+                        <div class="gallery__background">
+                            <img src="img/ga.jpg" alt="" class="gallery__image">
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__item">
+                    <a class="gallery__link" href="img/ga.jpg" data-lightbox="image-1" data-title="My caption">
+                        <div class="gallery__caption">
+                            <h3 class="gallery__header">Industrial Design <span>Room Furniture</span></h3>
+                        </div>
+                        <div class="gallery__background">
+                            <img src="img/gb.jpg" alt="" class="gallery__image">
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__item">
+                    <a class="gallery__link" href="img/ga.jpg" data-lightbox="image-1" data-title="My caption">
+                        <div class="gallery__caption">
+                            <h3 class="gallery__header">Industrial Design <span>Room Furniture</span></h3>
+                        </div>
+                        <div class="gallery__background">
+                            <img src="img/gc.jpg" alt="" class="gallery__image">
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__item">
+                        <a class="gallery__link" href="img/ga.jpg" data-lightbox="image-1" data-title="My caption">
+                            <div class="gallery__caption">
+                                <h3 class="gallery__header">Industrial Design <span>Room Furniture</span></h3>
+                            </div>
+                            <div class="gallery__background">
+                                <img src="img/gd.jpg" alt="" class="gallery__image">
+                            </div>
+                        </a>
+                </div>
+                <div class="gallery__item">
+                    <a class="gallery__link" href="img/ga.jpg" data-lightbox="image-1" data-title="My caption">
+                        <div class="gallery__caption">
+                            <h3 class="gallery__header">Industrial Design <span>Room Furniture</span></h3>
+                        </div>
+                        <div class="gallery__background">
+                            <img src="img/ge.jpg" alt="" class="gallery__image">
+                        </div>
+                        </a>
+                 </div>
+                <div class="gallery__item">
+                    <a class="gallery__link" href="img/ga.jpg" data-lightbox="image-1" data-title="My caption">
+                        <div class="gallery__caption">
+                            <h3 class="gallery__header">Industrial Design <span>Room Furniture</span></h3>
+                        </div>
+                        <div class="gallery__background">
+                            <img src="img/gf.jpg" alt="" class="gallery__image">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="user-stories">
+            <div class="user-stories__content container clearfix">
+                <div class="user-stories__tittle">
+                    <h2 class="user-stories__main-header">User Stories</h2>
+                </div>
+                <div class="user-stories__group">
+                    <div data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="700" class="user-stories__column">
+                        <div class="user-stories__article">
+                            <div class="article__top-group">
+                                <div class="article__photo">
+                                    <img src="img/person_07.jpg" alt="Person face in circle">
+                                </div>
+                                <h3 class="article__header">
+                                    Katia Malova
+                                </h3>
+                            </div>    
+                            <p class="article__paragraph">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga architecto rerum tempora, est minima officiis laborum laboriosam vero nisi. Iusto ex pariatur velit veniam omnis, molestiae unde sunt. Repellendus, ab.
+                            </p>
+                        </div>
+                        <div class="user-stories__article">
+                            <div class="article__top-group">
+                                <div class="article__photo">
+                                    <img src="img/person_08.jpg" alt="Person face in circle">
+                                </div>
+                                <h3 class="article__header">
+                                        Mat Brand
+                                </h3>
+                            </div>    
+                            <p class="article__paragraph">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga architecto rerum tempora, est minima officiis laborum laboriosam vero nisi. Iusto ex pariatur.
+                            </p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="700" data-aos-delay="200" class="user-stories__column">
+                        <div class="user-stories__article">
+                            <div class="article__top-group">
+                                <div class="article__photo">
+                                    <img src="img/person_01.jpg" alt="Person face in circle">
+                                </div>
+                                <h3 class="article__header">
+                                    Edward Montanez
+                                </h3>
+                            </div>    
+                            <p class="article__paragraph">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga architecto rerum tempora, est minima officiis laborum laboriosam vero nisi. Iusto ex pariatur velit veniam omnis, molestiae unde sunt. Repellendus, ab. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis laborum laboriosam vero nisi. Iusto ex pariatur velit veniam omnis
+                            </p>
+                        </div>
+                        <div class="user-stories__article">
+                            <div class="article__top-group">
+                                <div class="article__photo">
+                                    <img src="img/person_02.jpg" alt="Person face in circle">
+                                </div>
+                                <h3 class="article__header">
+                                    Katie Adams
+                                </h3>
+                            </div>    
+                            <p class="article__paragraph">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga architecto rerum tempora, adipisicing elit. Fuga architecto
+                            </p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="700" data-aos-delay="400" class="user-stories__column">
+                        <div class="user-stories__article">
+                            <div class="article__top-group">
+                                <div class="article__photo">
+                                    <img src="img/person_03.jpg" alt="Person face in circle">
+                                </div>
+                                <h3 class="article__header">
+                                    Alina Novak
+                                </h3>
+                            </div>    
+                            <p class="article__paragraph">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga architecto rerum tempora, est minima  ducimus earum distinctio beatae laboriosam non magnam accusantium obcaecati ab?
+                            </p>
+                        </div>
+                        <div class="user-stories__article">
+                            <div class="article__top-group">
+                                <div class="article__photo">
+                                    <img src="img/person_04.jpg" alt="Person face in circle">
+                                </div>
+                                <h3 class="article__header">
+                                            Hanna Howard
+                                </h3>
+                            </div>    
+                            <p class="article__paragraph">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga architecto rerum tempora, est minima officiis vero nisi. Iusto ex pariatur.
+                            </p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="700" data-aos-delay="600" class="user-stories__column">
+                        <div class="user-stories__article">
+                            <div class="article__top-group">
+                                <div class="article__photo">
+                                    <img src="img/person_05.jpg" alt="Person face in circle">
+                                </div>
+                                <h3 class="article__header">
+                                    Josh Viruk
+                                </h3>
+                            </div>    
+                            <p class="article__paragraph">
+                                Devi ratione maxime explicabo dolores! Perferendis maiores fuga laborum alias quo laudantium voluptates quod consequatur vero. Fuga architecto rerum tempora, est minima officiis laborum laboriosam vero nisi. Iusto ex pariatur velit veniam omnis, molestiae unde sunt. Repellendus, ab.
+                            </p>
+                        </div>
+                        <div class="user-stories__article">
+                            <div class="article__top-group">
+                                <div class="article__photo">
+                                    <img src="img/person_06.jpg" alt="Person face in circle">
+                                </div>
+                                <h3 class="article__header">
+                                    Edward Montanez
+                                </h3>
+                            </div>    
+                            <p class="article__paragraph">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga architecto rerum tempora, est minima officiis laborum laboriosam vero nisi. Iusto ex pariatur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__content">
+                <address class="footer__address">
+                        Contact us <a href="mailto:example@example.com">Jon Doe</a>
+                </address>
+                <address class="footer__address">
+                        2789 Rocky Hell Utah, DC 19003
+                </address>
+            </div>
+        </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="external/lightbox2-master/dist/js/lightbox.js"></script>
+    <script src="external/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="internal_script/internal_scripts.js"></script>
+    </body>
+</html>
+
+
