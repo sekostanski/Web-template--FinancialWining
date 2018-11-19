@@ -50,7 +50,7 @@ const heroSection = document.querySelector('.hero').offsetHeight;
 const howItWorksPos = document.querySelector('.howItWorks').offsetTop;
 
 function checkHeight() {
-  if(window.scrollY > howItWorksPos){
+  if(window.pageYOffset > howItWorksPos){
     navBar.classList.add('stickyNav');
   } else {
     navBar.classList.remove('stickyNav');
@@ -70,12 +70,6 @@ var mobileBttn = document.querySelector(".mainnav__mobile-icon");
 var bttnBackground = document.querySelector(".mainnav__mobile-background"); 
 var mainNav = document.querySelector(".mainnav__navigation-list");  
 
-
-/*
-mobileBttn.addEventListener("click", function(){
-  mainNav.style.display = mainNav.style.display === "none" ? "block" : "none";
-  bttnBackground.style.display = mainNav.style.display === "none" ? "none" : "block";
-});*/
 
 
 mobileBttn.addEventListener("click", function(){
